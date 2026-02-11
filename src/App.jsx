@@ -7,6 +7,9 @@ import CelebrationPage from "./CelebrationPage";
 export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [crushName, setCrushName] = useState("Pragati"); 
+
+
+  
   // Change this to your crush's name
 
   const goToPage2 = () => setCurrentPage(2);
